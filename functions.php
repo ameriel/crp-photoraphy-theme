@@ -253,7 +253,6 @@ function cherierenaephotography_add_excerpt_support_for_pages() {
 add_action( 'init', 'cherierenaephotography_add_excerpt_support_for_pages' );
 
 function cherierenaephotography_comment_nav() {
-	// Are there comments to navigate through?
 	if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) {
 		echo '<nav class="navigation comment-navigation" role="navigation">';
 		echo '<h2 class="screen-reader-text">'.  _e( 'Comment navigation', 'cherierenaephotography' ) . '</h2>';
